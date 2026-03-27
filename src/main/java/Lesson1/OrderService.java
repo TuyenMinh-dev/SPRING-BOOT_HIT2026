@@ -28,6 +28,7 @@ public class OrderService {
 
         paymentMethod.pay(amount);
         notificationService.sendNotification(customer, "Đơn hàng " + product + " đã đặt thành công!");
+                                              //to:customer ;  message:"don hang"........"da dat thanh cong;
 
         System.out.println("Hình thức thanh toán sử dụng: " + paymentMethod.getMethodName());
         System.out.println("--- KẾT THÚC ---");

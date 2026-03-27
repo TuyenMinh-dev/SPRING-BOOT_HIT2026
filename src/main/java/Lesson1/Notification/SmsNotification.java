@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class SmsNotification implements NotificationService {
     @Override
     public void sendNotification(String to, String message){
-        System.out.println("Dang gui tin nhan den "+to+" : " + message);
+        System.out.println("Dang gui tin nhan sms den "+to+" : " + message);
     };
 }

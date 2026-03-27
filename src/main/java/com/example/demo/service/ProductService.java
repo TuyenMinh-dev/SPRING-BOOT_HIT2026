@@ -10,7 +10,7 @@ public class ProductService {
     private List<Product> products = new ArrayList<>();
 
     public ProductService() {
-        // Tạo sẵn dữ liệu mẫu để khi GET sẽ thấy ngay
+        // Tạo sẵn dữ liệu mẫu
         products.add(new Product(1, "iPhone 15", 1000));
         products.add(new Product(2, "Samsung S24", 900));
     }
